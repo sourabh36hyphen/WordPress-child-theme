@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /?s=
+Disallow: /search/
+Disallow: /tag/
+Disallow: /*?replytocom=
+Disallow: /*?preview=
+Disallow: /*?paged=
+Disallow: /page/*?
+
+User-agent: Googlebot
+Allow: /wp-content/uploads/
+Allow: /wp-content/themes/
+Disallow: /wp-admin/
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 2
+
+Sitemap: https://yoursite.com/sitemap.xml
+Sitemap: https://yoursite.com/wp-sitemap.xml
